@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>My Codebook</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>My Codebook</h1>
+
+<p>In the tidy dataset called <strong>&ldquo;myTidyDataSet.txt&rdquo;</strong> I have 10,299 rows and 8 columns.  Out of a total of 563 variables in the raw dataset (called <strong>&ldquo;mergedfile2.txt&rdquo;</strong>), I selected 8 variables.  These variables, associated trsnaformation and other important data is described below:</p>
+
+<ul>
+<li>Subject:  This is the Volunteer</li>
+<li>Activity:  I transformed the numbers to more meaningful labels.  For example, I changed 1 to &ldquo;Walking&rdquo;, 2 to &ldquo;Walking_Upstairs&rdquo;, 3 to &ldquo;Walking_downstairs&rdquo;, 4 to &ldquo;Sitting&rdquo;, 5 to &ldquo;Standing&rdquo;, and 6 to &ldquo;Laying&rdquo;.</li>
+<li>The tidy data set is sorted, first by Subject and then by Activity.</li>
+<li>The other 6 variables are the 3-axial linear body acceleration &ndash; Mean and Standard Deviation.  they have all been given meaningful english names.</li>
+<li> The Body Acceleration numbers were based on time domain signals captured by the accelerometer on the Subject&#39;s smartphone.  The signals were captured 50 times / second (50 Hz) and various filtering and noise reduction techniques have been applied to clean up the data</li>
+<li>Units of linear body acceleration are in <strong>&ldquo;gravity units&rdquo;</strong></li>
+</ul>
+
+</body>
+
+</html>
+
